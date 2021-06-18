@@ -1,0 +1,60 @@
+/*selector{
+	propiedad:  ;	
+}
+Esta es la forma general
+*/ 
+/* Selector Universal "*" */			/* */
+* {
+	color: red;
+}
+
+/* Selector de tipo "La etiqueta"  */
+
+h2 {
+	color: blue;
+}
+p {
+	color: brown;
+}
+
+/* Por clases "Debes de agrear en el html class y darle un nombre" */
+
+.boton {
+	color: yellow;
+}
+.cabeza{
+	color: skyblue;
+}
+
+/* ID siempre debe de ser unico*/
+
+#elemento {
+	color: black;
+}
+
+/* Atributo */
+[rancho="sii"]{
+	color: green;
+}
+
+/* Decendiente */
+article p {
+	color: purple;
+}
+
+/* Pseudoclases Con hover es para que se ilumine algo cuando pasas el cursor por encima*/
+
+.boton:hover {
+	color: black;
+}
+
+.cabeza:hover{
+	color: black;
+}
+
+/* -------------------Especificidad---------------------
+
+Entre mas baja sea la categoria menos relevante es, el que
+tenga mayor jeraquia es el que se mostrara.
+Si se selecciona a 2 o mas de una categoria, entonces
+se mostrara mediante cascada (los que estan al fina)
