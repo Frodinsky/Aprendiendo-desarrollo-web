@@ -1,0 +1,27 @@
+/* 	Esto es para trabajar con la metodologia bem 
+	Se toma una clase
+*/
+.contact-form__input:first-child{
+	color: red;
+}
+
+.contact-form__input--caso2{
+	color: pink;
+}
+/*
+	Este es un ejemplo donde ambos pueden hacer lo mismo, me gusto mas
+	la segunda forma ya que se ve mas claro cual es la que cambia
+*/
+
+/*----------------------------------------------------------*/
+/*----------------Unidades------------------------*/
+/*
+	Existen 2 tipos de unidades, relativas y absolutas
+*/
+.contact-form{
+
+}
+
+.contact-form__h2{
+	font-size: 30px;
+}
