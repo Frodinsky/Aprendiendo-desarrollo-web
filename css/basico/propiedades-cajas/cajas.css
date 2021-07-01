@@ -1,0 +1,57 @@
+*{
+	font-size: 30px;
+	font-family: 'Dancing Script', cursive;
+}
+h2{
+	background-color: #ddbdff;
+	display: inline-block;
+	padding: 20px 30px;
+	/*Con el padding si pones solo dos medidas la primera afecta
+	a el eje Y & la segunda afecta al eje X*/
+}
+H3{
+	background-color: violet;
+	display: inline-block;
+	padding: 20px 30px 40px 50px;
+	/*Aqui afecta en orden de las manecillas del reloj*/
+	height: 100px; /* largo */
+	width: 100px;  /* Ancho */
+	box-sizing: border-box; /* Con esto ignora respesta el height y widht */
+
+}
+h4{
+	background-color: #a0294c;
+	display: inline-block;
+	padding: 100px;
+	margin: 10px;
+	text-align: center; /* Centra el texto, tambien existen otras ubicaciones */
+}
+h5{
+	background-color: darkblue;
+	display: inline-block;
+	padding: 60px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 20px 10px; 
+	/* Esto es para alejarnos de otras cajas cada caja tendra esa separacion
+	asi que si dos cajas tienen el mismo margin en la misma linea
+	este se va alejar de mas */
+	border-radius: 20px ;
+}
+h6{
+	background-color: darkorange;
+	display: inline-block;
+	padding: 80px;
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 20px;
+	border: 10px solid greenyellow;
+	/*El border */
+	box-shadow: 10px 10px 10px 10px blueviolet;
+	text-shadow: 15px 15px 15px 15px brown;
+	transform: rotate(-45deg);
+}
+/*Primero el content
+padding
+border
+margin*/

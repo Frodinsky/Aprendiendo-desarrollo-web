@@ -1,0 +1,7 @@
+.contact-form__h2{
+	font-size: 3em;
+	font-family: 'Merienda One', cursive;
+	line-height: 2; /*El size que ocupa en la caja*/
+	font-weight: 700; /*Hacer mas ancha la letra*/
+	color: darkred;
+}

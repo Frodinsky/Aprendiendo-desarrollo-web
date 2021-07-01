@@ -1,0 +1,47 @@
+*{
+	font-family: 'Indie Flower', cursive;
+	font-weight: 100;
+	font-size: 25px;
+}
+h2{
+
+}
+.caja01{
+	width: 100px;
+	height: 100px;
+	background: greenyellow;
+	margin: auto;
+	border: 10px solid green;
+	box-sizing: content-box;
+}
+
+.caja02{
+	width: 100px;
+	height: 100px;
+	background: blueviolet;
+	margin: auto;
+	outline: 10px solid purple;
+	/* Sirve para marcar elementos ya que no los desplaza
+	se sobrepone */
+}
+div {
+	width: 120px;
+	height: 120px;
+	display: block;
+	background: greenyellow;
+}
+.caja1{
+	background: orange;
+	top: 20px;
+}
+.caja2{
+	background: lightgreen;
+	position: relative;
+	top: 20px;
+}
+.caja3{
+	background: skyblue;
+}
+.caja4{
+	
+}

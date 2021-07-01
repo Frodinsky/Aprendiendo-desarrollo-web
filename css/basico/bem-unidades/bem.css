@@ -1,3 +1,8 @@
+/*Instrucciones para todo*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
 /* 	Esto es para trabajar con la metodologia bem 
 	Se toma una clase
 */
@@ -19,9 +24,19 @@
 	Existen 2 tipos de unidades, relativas y absolutas
 */
 .contact-form{
-
+	font-size: 20px;
+	background-color: #f08c78;
+	width: 50vw;
+	height: 50vh;
 }
-
 .contact-form__h2{
-	font-size: 30px;
+	font-size: 50px;
 }
+.contact-form__h3{
+	font-size: 1em;
+}
+/* Por defecto el EM tiene 16 px pero si la caja contenedora tiene 
+otro size esta hereda el size 
+Unidad relativa VW es para el ancho x 
+Unidad relativa VH es para el largo y
+*/

@@ -1,0 +1,10 @@
+* {
+	color: purple;
+	font-family: 'Merienda One', cursive;
+	font-size: 50px;
+}
+/*Con la propiedad display cambias el comportamiento de weas*/
+
+h2 {
+	display: inline;
+}
